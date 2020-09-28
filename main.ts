@@ -77,7 +77,7 @@ basic.forever(function () {
         }
         i += 1
     }
-    if (isFinished) {
+    if (!isFinished) {
         punkte += 1
     }
     basic.showString("" + (punkte))
